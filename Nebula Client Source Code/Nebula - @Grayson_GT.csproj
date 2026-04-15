@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Nebula - @Grayson_GT</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="0Harmony" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="Oculus.Spatializer" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="PhotonRealtime" />
+    <Reference Include="UnityEngine.UIModule" />
+    <Reference Include="BepInEx" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.TextRenderingModule" />
+    <Reference Include="PhotonUnityNetworking" />
+    <Reference Include="Mono.Security" />
+    <Reference Include="MonoMod.Utils" />
+    <Reference Include="Oculus.VR" />
+    <Reference Include="Photon3Unity3D" />
+    <Reference Include="PlayFab" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="System.Core">
+      <HintPath>../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/6.0.25/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro" />
+  </ItemGroup>
+</Project>
